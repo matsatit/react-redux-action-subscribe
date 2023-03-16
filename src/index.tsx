@@ -58,4 +58,4 @@ const actionCallback: Middleware = () => (next) => (action) => {
   return res;
 };
 
-export default actionCallback;
+export default { actionCallback };
