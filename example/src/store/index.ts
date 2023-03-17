@@ -17,7 +17,7 @@ const store = createStore(
   {
     value: 0,
   },
-  applyMiddleware(actionCallback)
+  applyMiddleware(actionCallback.actionCallback)
 );
 
 export type RootState = ReturnType<typeof counterReducer>;
